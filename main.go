@@ -51,7 +51,7 @@ func main(){
 			fmt.Printf("Email is not valide")	
 		}
 		if !isValidTicketNumber{
-		fmt.Printf("We only have %v tickets remaining ,so you can't book %v tickets", remainingTickets,userTicket)
+		fmt.Printf("We only have some  %v tickets remaining ,so you can't book %v tickets", remainingTickets,userTicket)
 		}
 	}
 	
